@@ -16,9 +16,12 @@
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Triangle" />
       <module name="CIS 218" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -56,22 +59,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1578899197847">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579416192009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1578899197847" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1578899197847">
+    <state x="414" y="176" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1579416192009" />
+    <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1579416157748">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1578899197847" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1578899197847">
+    <state x="689" y="305" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1579416157748" />
+    <state x="740" y="238" key="FileChooserDialogImpl" timestamp="1579418431963">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1578899197847" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1578899197847">
+    <state x="740" y="238" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1579418431963" />
+    <state width="1340" height="281" key="GridCell.Tab.0.bottom" timestamp="1579416161505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1578899197847" />
+    <state width="1340" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1579416161505" />
+    <state width="1340" height="281" key="GridCell.Tab.0.center" timestamp="1579416161505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1579416161505" />
+    <state width="1340" height="281" key="GridCell.Tab.0.left" timestamp="1579416161505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1579416161505" />
+    <state width="1340" height="281" key="GridCell.Tab.0.right" timestamp="1579416161505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1579416161505" />
+    <state x="625" y="220" width="672" height="600" key="NewModule_or_Project.wizard" timestamp="1579418438987">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="220" width="672" height="600" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1579418438987" />
     <state x="661" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1578811191171">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
