@@ -88,7 +88,7 @@ public class Main {
 
     // Check Area method
     System.out.println("Area of each rectangle:");
-    for ( int rectNum = 0; rectNum < rects.size(); rectNum++ ) {
+    for (int rectNum = 0; rectNum < rects.size(); rectNum++) {
       Rect2D r = (Rect2D) rects.get(rectNum);
       System.out.println("Area of " + r.rectName + " Expected: " +
           areas.get(rectNum) +
@@ -98,7 +98,7 @@ public class Main {
 
     // Check Perimeter method
     System.out.println();
-    for ( int rectNum = 0; rectNum < rects.size(); rectNum++ ) {
+    for (int rectNum = 0; rectNum < rects.size(); rectNum++) {
       Rect2D r = (Rect2D) rects.get(rectNum);
       System.out.println("Perimeter of " + r.rectName + " Expected: " +
           perimeters.get(rectNum) +
@@ -109,7 +109,7 @@ public class Main {
     System.out.println();
     System.out.println("Automatic Comparison of Rectangles:");
     System.out.println("----------------------------------");
-    for ( int i = 0; i < 12; i += 2 ) {
+    for (int i = 0; i < 12; i += 2) {
       CompareRectangles(rects, i, i + 1);
     }
 
