@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calculadora científica</string>
+    <string name="random">aleatoria</string>
+</resources>

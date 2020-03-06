@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../W2020AndriodLecture.iml" filepath="$PROJECT_DIR$/../W2020AndriodLecture.iml" group="W2020AndriodLecture" />
+      <module fileurl="file://$PROJECT_DIR$/app.iml" filepath="$PROJECT_DIR$/app.iml" group="W2020AndriodLecture/app" />
+    </modules>
+  </component>
+</project>
