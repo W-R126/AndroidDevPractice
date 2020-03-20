@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Random;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
@@ -38,24 +40,34 @@ public class MainActivity extends AppCompatActivity {
     return super.onCreateOptionsMenu(menu);
   }
 
-//  @Override
-//  public boolean onOptionsItemSelected(MenuItem item) {
-//    switch (item.getItemId()) {
-//      case R.id.action_settings:
-//        // Do something
-//
-//        return true;
-//      default:
-//        return super.onOptionsItemSelected(item);
-//    }
-//  }
+  @Override
+  public boolean onOptionsItemSelected(MenuItem item){
+    switch(item.getItemId()){
+      case R.id.menuAbout :
+        Intent aboutIntent = new Intent(this, About.class );
+        startActivity(aboutIntent);
+        return true;
 
-//  @Override
-//  public boolean onCreateOptionsMenu(Menu menu) {
-//    MenuInflater inflater = getMenuInflater();
-//    inflater.inflate(R.menu.menu, menu);
-//    return true;
-//  }
+      case R.id.menuCalc :
+        Intent calcIntent = new Intent(this, MainActivity.class );
+        startActivity(calcIntent);
+        return true;
+
+      case R.id.menuConversions :
+        Intent conversionsIntent = new Intent(this, conversion.class );
+        startActivity(conversionsIntent);
+        return true;
+
+      case R.id.menuHistory :
+        Intent historyIntent = new Intent(this, history.class );
+        startActivity(historyIntent);
+        return true;
+
+
+      default: return super.onOptionsItemSelected(item);
+    }
+
+  }
 
   @SuppressLint("SetTextI18n")
   public void btnClick_0(View view) {
